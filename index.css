@@ -368,7 +368,7 @@ header .container {
     padding: 9px 15px;
   }
   .hamburger-menu {
-    display:-webkit-inline-flex;
+    display:flex;
     margin-right: -20px;
     cursor: pointer;
     z-index: 999;
@@ -381,8 +381,8 @@ header .container {
     text-align: center;
   }
   .links {
-    position: fixed;
-    height: 100vh;
+    position:absolute;
+    height: 50vh;
     width: 220px;
     right: 0;
     top: 0;
