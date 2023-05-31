@@ -207,7 +207,8 @@ header .container {
 }
 
 .person {
-  width: 100%;
+  width: 70%;
+  
   transform: translate(0%, 10px);
   transition: all 0.45s ease;
   color: var(--backgroundColo);
@@ -335,6 +336,7 @@ header .container {
     text-align: center;
     justify-content: center;
     grid-gap: 32px;
+    
   }
 
   .title h1 {
@@ -348,9 +350,13 @@ header .container {
     line-height: 1.3;
   }
   .person {
-    width: 100%;
-    transform: none;
+    width: 70%;
+    
+    
+
   }
+
+
   .btn {
     display: flex;
     justify-content: center;
@@ -368,6 +374,12 @@ header .container {
     z-index: 999;
   }
 
+  .wrappe{
+    display:non;
+    margin-bottom: 20px;
+  
+    text-align: center;
+  }
   .links {
     position: fixed;
     height: 100vh;
