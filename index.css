@@ -325,7 +325,7 @@ header .container {
 
 @media screen and (max-width: 768px) {
   .logo h3 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .logo {
@@ -335,22 +335,22 @@ header .container {
     grid-template-columns: 1fr;
     text-align: center;
     justify-content: center;
-    grid-gap: 32px;
+    grid-gap: 30px;
     
   }
 
   .title h1 {
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 32px;
+    margin-top: 20px;
   }
 
   .text {
-    font-size: 11px;
-    margin: 15px 0 7px;
+    font-size: 12px;
+    margin: 14px 0 25px;
     line-height: 1.3;
   }
   .person {
-    width: 70%;
+    width: 80%;
     
     
 
@@ -368,7 +368,7 @@ header .container {
     padding: 9px 15px;
   }
   .hamburger-menu {
-    display: inline-block;
+    display:-webkit-inline-flex;
     margin-right: -20px;
     cursor: pointer;
     z-index: 999;
