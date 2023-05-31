@@ -362,8 +362,7 @@ header .container {
     padding: 9px 15px;
   }
   .hamburger-menu {
-    position: fixed;
-    right: 40px;
+    
     
     
     display: inline-block;
@@ -374,7 +373,7 @@ header .container {
 
   .links {
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     right: 0;
     top: 0;
@@ -383,7 +382,7 @@ header .container {
     padding-top: 80px;
     align-items: center;
     justify-content: center;
-    transform: translateX(100%);
+    transform: translatex(100%);
     transition: 0.5s;
     z-index: 9;
   }
