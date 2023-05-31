@@ -59,7 +59,7 @@ a {
 }
 
 header {
-  z-index: 0;
+  
 }
 
 header .container {
@@ -681,7 +681,7 @@ form textarea {
     grid-template-columns: 1fr;
   }
   .contect-form form {
-    position: relative;
+    
     width: 280px;
     margin-left: auto;
   }
@@ -692,7 +692,7 @@ form textarea {
     grid-template-columns: 1fr;
   }
   .contect-form form {
-    position: relative;
+  
     width: 260px;
     margin-left: auto;
   }
