@@ -716,6 +716,17 @@ a{
     }
     
   }
+  @media (max-width: 460px) {
+    .contect{
+        grid-template-columns: 1fr;
+    }
+    .contect-form form{
+      position: relative;
+      width: 280px;
+      margin-left: auto;
+      
+    }
+  }
   
   @media (max-width: 380px) {
     .contect{
