@@ -348,7 +348,7 @@ header .container {
     line-height: 1.3;
   }
   .person {
-    width: 80%;
+    width: 100%;
     transform: none;
   }
   .btn {
@@ -362,9 +362,6 @@ header .container {
     padding: 9px 15px;
   }
   .hamburger-menu {
-    
-    
-    
     display: inline-block;
     margin-right: -20px;
     cursor: pointer;
@@ -373,18 +370,18 @@ header .container {
 
   .links {
     position: fixed;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 220px;
     right: 0;
     top: 0;
     background: var(--backgroundColor);
     color: var(--lightTwo);
-    padding-top: 80px;
+    padding-top: 20px;
     align-items: center;
     justify-content: center;
     transform: translatex(100%);
     transition: 0.5s;
-    z-index: 9;
+    z-index: 999;
   }
 
   .links.active {
