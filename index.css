@@ -90,6 +90,7 @@ header .container {
 .links {
   display: flex;
   align-items: center;
+  
 }
 
 .links ul {
@@ -361,6 +362,10 @@ header .container {
     padding: 9px 15px;
   }
   .hamburger-menu {
+    position: fixed;
+    right: 40px;
+    
+    
     display: inline-block;
     margin-right: -20px;
     cursor: pointer;
@@ -380,6 +385,7 @@ header .container {
     justify-content: center;
     transform: translateX(100%);
     transition: 0.5s;
+    z-index: 9;
   }
 
   .links.active {
