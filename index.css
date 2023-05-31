@@ -341,11 +341,11 @@ header .container {
 
   .title h1 {
     font-size: 32px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .text {
-    font-size: 12px;
+    font-size: 10px;
     margin: 14px 0 25px;
     line-height: 1.3;
   }
