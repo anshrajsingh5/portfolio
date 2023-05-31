@@ -337,9 +337,7 @@ header .container{
 
 @media screen and (max-width: 768px){
 
-  .main{
-    max-height: 700px;
-  }
+ 
   .logo h3{
     font-size: 25px;
 }
