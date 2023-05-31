@@ -717,6 +717,18 @@ a{
     
   }
   
+  @media (max-width: 380px) {
+    .contect{
+        grid-template-columns: 1fr;
+    }
+    .contect-form form{
+      position: relative;
+      width: 260px;
+      margin-left: auto;
+      
+    }
+  }
+  
 
 
 
@@ -757,8 +769,9 @@ footer{
      line-height: 3rem;
    }
    .footer_content p{
-     max-width: 500px;
+     max-width: 530px;
      margin: 10px auto;
+     padding: 30px;
    }
    .social-media{
      list-style: none;
