@@ -46,6 +46,7 @@ function events(){
 }
 events();
  
+
 //const header = document.querySelector("header");
 //window.addEventListener("scroll",function(){
    // header.classList.toggle ("sticky",this.scrollY >100);
@@ -55,6 +56,7 @@ events();
    // menubar.classList.toggle('bx-x');
    // navelist.classList.toggle('navelist');
 //}
+
 
 //--scripting for contect us---\\
 
