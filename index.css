@@ -373,7 +373,18 @@ header .container {
     cursor: pointer;
     z-index: 999;
   }
+/* ...................... */
+/* 
+#togle:checked ~ .links{
+   width:200px;
+   display: block;
+ }
+ #togle:checked ~  .links  a> .link-name-l {
+display: block;
+}
+ */
 
+/* ......................... */
   .wrappe{
     display:non;
     margin-bottom: 20px;
@@ -382,13 +393,13 @@ header .container {
   }
   .links {
     position:absolute;
-    height: 50vh;
+    height: 45vh;
     width: 220px;
     right: 0;
     top: 0;
     background: var(--backgroundColor);
     color: var(--lightTwo);
-    padding-top: 20px;
+    padding-top: 50px;
     align-items: center;
     justify-content: center;
     transform: translatex(100%);
@@ -396,8 +407,14 @@ header .container {
     z-index: 999;
   }
 
-  .links.active {
-    right: 0;
+  .links .active{
+    
+    height: 500px;
+  }
+
+  .links .active ul{
+    
+    z-index: 999;
   }
 
   .links ul {
