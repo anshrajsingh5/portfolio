@@ -596,7 +596,7 @@ a {
 .contect-text h4 {
   color: var(--main-color);
   margin: 5px 0;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
 }
 .contect-text h2 {
@@ -604,6 +604,8 @@ a {
   color: var(--text-color);
   line-height: 1;
   margin-bottom: 10px;
+  display: flex;
+  justify-content:center ;
 }
 .contect-text h2 span {
   color: var(--main-color);
@@ -658,6 +660,17 @@ a {
   font-size: 15px;
 }
 
+.contect-form h3 {
+  font-size: 20px;
+  color: var(--text-color);
+  line-height: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content:center ;
+}
+.contect-form h3 span {
+  color: var(--main-color);
+}
 .contect-form form {
   position: relative;
   width: 380px;
@@ -728,11 +741,11 @@ form textarea {
 footer {
   box-sizing: border-box;
 
-  background: rgba(22, 21, 21, 0.981);
+  background: white;
   height: auto;
   width: 100%;
   padding-top: 0px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Open Sans";
 }
 .footer_content {
@@ -745,7 +758,7 @@ footer {
 .footer_content h3 {
   font-size: 1.8rem;
   font-weight: 400;
-  color: skyblue;
+  color: rgb(1, 85, 118);
   text-transform: capitalize;
   line-height: 3rem;
 }
@@ -753,6 +766,7 @@ footer {
   max-width: 530px;
   margin: 10px auto;
   padding: 30px;
+  color: #002731;
 }
 .social-media {
   list-style: none;
@@ -763,14 +777,14 @@ footer {
 }
 .social-media a {
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 .social-media a i {
   font-size: 1rem;
   transition: color 0.4s ease;
 }
 .footer_content a:hover i {
-  color: aqua;
+  color: rgb(0, 107, 107);
 }
 .footer-button {
   background: black;
