@@ -562,10 +562,10 @@ a {
 /*...... contect us section...........*/
 
 :root {
-  --bg-color: #2a2a2a;
-  --second-bg-color: #0d0d0d;
-  --text-color: #fff;
-  --main-color: rgb(17, 134, 192);
+  --bg-color: #ffffff;
+  --second-bg-color: #0000000a;
+  --text-color: #000000;
+  --main-color: rgb(0, 124, 185);
   --big-font: 5rem;
   --h2-font: 2rem;
   --p-font: 1, 1rem;
@@ -635,8 +635,11 @@ a {
   align-items: center;
   border-radius: 50%;
   font-size: 20px;
-  background: var(--text-color);
+  background: var(--bg-color);
   margin: 20px;
+}
+.contect-text .list .li .icn a{
+  color: #000000;
 }
 .contect-text .list .li .text h3 {
   display: flex;
@@ -680,7 +683,7 @@ a {
 form textarea {
   width: 100%;
   padding: 15px;
-  background: var(--second-bg-color);
+  background: var(--second-bg-colo);
   color: var(--text-color);
   border-top: none;
   border-left: none;
@@ -701,7 +704,7 @@ form textarea {
   display: inline-block;
   font-size: 16px;
   background: var(--main-color);
-  color: var(--text-color);
+  color: var(--bg-color);
   width: 160px;
   border-radius: 20px;
   transition: all 0.45s ease;
@@ -741,7 +744,7 @@ form textarea {
 footer {
   box-sizing: border-box;
 
-  background: white;
+  background: rgb(255, 252, 252);
   height: auto;
   width: 100%;
   padding-top: 0px;
@@ -784,7 +787,7 @@ footer {
   transition: color 0.4s ease;
 }
 .footer_content a:hover i {
-  color: rgb(0, 107, 107);
+  color: rgb(0, 109, 121);
 }
 .footer-button {
   background: black;
@@ -799,6 +802,7 @@ footer {
 }
 .footer-button span {
   text-transform: uppercase;
-  opacity: 0.5;
+  
   font-weight: 200;
+  color:skyblue;
 }
