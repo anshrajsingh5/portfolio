@@ -731,7 +731,7 @@ footer {
   background: rgba(22, 21, 21, 0.981);
   height: auto;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 0px;
   color: white;
   font-family: "Open Sans";
 }
@@ -745,7 +745,7 @@ footer {
 .footer_content h3 {
   font-size: 1.8rem;
   font-weight: 400;
-  color: #1da1f2;
+  color: skyblue;
   text-transform: capitalize;
   line-height: 3rem;
 }
