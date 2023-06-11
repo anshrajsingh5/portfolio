@@ -565,7 +565,7 @@ a {
   --bg-color:  rgb(245, 252, 252);
   --second-bg-color: #0000000a;
   --text-color: #000000;
-  --main-color: rgb(0, 124, 185);
+  --main-color:  #007fad;;
   --big-font: 5rem;
   --h2-font: 2rem;
   --p-font: 1, 1rem;
@@ -582,7 +582,7 @@ a {
   flex-direction: column;
 }
 .skil h1{
-  color: #017490;
+  color: var(--main-color);
   font-size: 38px;
   margin-top: 50px;
   font-family:  Arial, sans-serif;
@@ -1108,7 +1108,7 @@ footer {
   border-radius: 8px;
 }
 .carousel .card .img {
-  background: #0082c4;
+  background:  #007fad;;
   height: 148px;
   width: 148px;
   border-radius: 50%;
