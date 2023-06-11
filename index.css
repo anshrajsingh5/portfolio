@@ -619,18 +619,18 @@ a {
   gap:10rem;
   font-family: "Poppins", sans-serif;
 }
-.skill_close .skills_list{
+.skills_close .skills_list{
    height: 0;
    overflow: hidden;
    
 }
-.skill_open .skills_list{
+.skills_open .skills_list{
   height: max-content;
   margin-bottom:2.5rem ;
 
 
 }
-.skill_open .skills_arrow{
+.skills_open .skills_arrow{
   transform: rotate(-180deg);
 }
 .skills{
@@ -638,12 +638,12 @@ a {
   max-width: 500px;
   padding: 100px 20px;
 }
-.skill-name{
+.skills_name{
   font-size: 16px;
   text-transform: uppercase;
   margin: 20px 0;
 }
-.skill-bar{
+.skills_bar{
   height: 10px;
   background-color: #cacaca;
   border-radius: 15px;
@@ -651,7 +651,7 @@ a {
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.skill-per{
+.skills_per{
   height: 10px;
   background-color: #0091c6;
   border-radius: 15px;
@@ -708,7 +708,7 @@ a {
 #skill-wf{
   width: 60%;
 }
-.skill-per::before{
+.skills_per::before{
   content: attr(per);
   position: absolute;
   padding: 4px 6px;
@@ -720,7 +720,7 @@ a {
   right:0;
   transform: translateX(50%);
 }
-.skill-per::after{
+.skills_per::after{
   content: '' ;
   position: absolute;
   width: 10px;
