@@ -561,7 +561,7 @@ a {
 }
 /* Skills */
 :root {
-  --bg-color:  rgb(255, 252, 252);
+  --bg-color:  rgb(245, 252, 252);
   --second-bg-color: #0000000a;
   --text-color: #000000;
   --main-color: rgb(0, 124, 185);
@@ -574,7 +574,7 @@ a {
 }
 
 .skil{
-  background-color: rgb(251, 251, 251) ;
+  background-color: rgb(245, 252, 255) ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -583,11 +583,13 @@ a {
 .skil h1{
   font-size: 38px;
   margin-top: 50px;
+  font-family:  Arial, sans-serif;
 }
 .skills-c h2{
   margin: 50px 0;
   display: flex;
   justify-content: space-between;
+  font-family:sans-serif;
 
 }
 .skills-c h2 .skills_arrow{
@@ -644,7 +646,7 @@ a {
   margin: 20px 0;
 }
 .skills_bar{
-  height: 10px;
+  height: 6px;
   background-color: #cacaca;
   border-radius: 15px;
   display: block;
@@ -652,7 +654,7 @@ a {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .skills_per{
-  height: 10px;
+  height: 6px;
   background-color: #0091c6;
   border-radius: 15px;
   width: 60%;
@@ -748,7 +750,7 @@ a {
 
 :root {
   --bg-color: #ffffff;
-  --second-bg-color: #0000000a;
+  --second-bg-color: #f1faff;
   --text-color: #000000;
   --main-color: #0087b9;
   --big-font: 5rem;
@@ -929,7 +931,7 @@ form textarea {
 footer {
   box-sizing: border-box;
 
-  background: rgb(255, 252, 252);
+  background: rgb(245, 252, 255);
   height: auto;
   width: 100%;
   padding-top: 0px;
