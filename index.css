@@ -574,17 +574,20 @@ a {
 }
 
 .skil{
-  background-color: rgb(245, 252, 255) ;
+  background-color: rgb(255, 255, 255) ;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .skil h1{
-  color: #005469;
+  color: #017490;
   font-size: 38px;
   margin-top: 50px;
   font-family:  Arial, sans-serif;
+}
+.skil p{
+  font-size: 25px;
 }
 .skills-c h2{
   margin: 50px 0;
@@ -751,9 +754,9 @@ a {
 
 :root {
   --bg-color: #ffffff;
-  --second-bg-color: #effeff;
+  --second-bg-color: #ffffff;
   --text-color: #000000;
-  --main-color: #0087b9;
+  --main-color: #007fad;
   --big-font: 5rem;
   --h2-font: 2rem;
   --p-font: 1, 1rem;
@@ -763,7 +766,7 @@ a {
 }
 .contect_all{
   width: 100%;
-  padding: 30px 15%;
+  padding: 20px 15%;
   top: 0;
   right: 0;
   background: var(--second-bg-color);
@@ -797,7 +800,7 @@ a {
   font-size:35px;
   color: var(--mainColor);
   line-height: 1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content:center ;
 }
@@ -829,15 +832,15 @@ a {
   align-items: center;
   border-radius: 50%;
   font-size: 20px;
-  background: var(--bg-color);
+  background:var(--main-color);
   margin: 20px;
 }
 .contect-text .list .li .icn a{
-  color: #000000;
+  color: #ffffff;
 }
 .contect-text .list .li .text h3 {
   display: flex;
-  color: var(--text-colo);
+  color: var(--text-color);
   font-size: 18px;
   transition: all 0.45s ease;
   text-decoration: none;
@@ -938,7 +941,7 @@ form textarea {
 footer {
   box-sizing: border-box;
 
-  background: rgb(245, 252, 255);
+  background: rgb(255, 255, 255);
   height: auto;
   width: 100%;
   padding-top: 0px;
@@ -953,9 +956,9 @@ footer {
   text-align: center;
 }
 .footer_content h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 400;
-  color: rgb(1, 85, 118);
+  color: rgb(0, 108, 151);
   text-transform: capitalize;
   line-height: 3rem;
 }
@@ -970,7 +973,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 2.7rem 0;
 }
 .social-media a {
   text-decoration: none;
@@ -984,7 +987,7 @@ footer {
   color: rgb(0, 133, 148);
 }
 .footer-button {
-  background: black;
+  background: rgb(255, 255, 255);
   width: 100%;
   padding: 20px 0;
   text-align: center;
@@ -993,10 +996,11 @@ footer {
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+  color: #000;
 }
 .footer-button span {
   text-transform: uppercase;
-  
-  font-weight: 200;
-  color:#00bbff;
+  font-size: 15px;
+  font-weight: 800 bold;
+  color:#0075a0;
 }
