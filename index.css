@@ -590,8 +590,9 @@ a {
   justify-content: space-between;
 
 }
-.skills-c h2 i{
+.skills-c h2 .skill-arrow{
   color: #00a9e7;
+  transition: .4s;
 
 }
 
@@ -617,6 +618,19 @@ a {
   grid-template-columns: repeat(2, 1fr);
   gap:10rem;
   font-family: "Poppins", sans-serif;
+}
+.skills-close .skills{
+   height: 0;
+   overflow: hidden;
+}
+.skills-open .skills{
+  height: max-content;
+  margin-bottom: ;
+
+
+}
+.skills-open .skill-arrow{
+  transform: rotate(-180deg);
 }
 .skills{
   width: 18px;
