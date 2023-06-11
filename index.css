@@ -751,7 +751,7 @@ a {
 
 :root {
   --bg-color: #ffffff;
-  --second-bg-color: #f1faff;
+  --second-bg-color: #effeff;
   --text-color: #000000;
   --main-color: #0087b9;
   --big-font: 5rem;
@@ -761,12 +761,18 @@ a {
 a {
   text-decoration: none;
 }
-.contect {
+.contect_all{
   width: 100%;
-  padding: 34px 15%;
+  padding: 30px 15%;
   top: 0;
   right: 0;
   background: var(--second-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contect {
+  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -782,20 +788,20 @@ a {
 }
 
 .contect-text h4 {
-  color: var(--main-color);
-  margin: 5px 0;
+  color: var(--darkOne);
+  margin: 3px 0;
   font-size: 16px;
   font-weight: 600;
 }
-.contect-text h2 {
-  font-size: var(--h2-font);
-  color: var(--text-color);
+.contect_head h2 {
+  font-size:35px;
+  color: var(--mainColor);
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: flex;
   justify-content:center ;
 }
-.contect-text h2 span {
+.contect_head h2 span {
   color: var(--main-color);
 }
 .contect-text p {
