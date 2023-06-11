@@ -395,7 +395,7 @@ display: block;
   .links {
     position:absolute;
     height: 450px;
-    width: 28%;
+    width: 35%;
     right: 0;
     top: 0;
     background: var(--backgroundColor);
