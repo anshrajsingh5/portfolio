@@ -589,7 +589,10 @@ a {
   justify-content: space-between;
 
 }
+.skills-c h2 i{
+  color: #00a9e7;
 
+}
 
 
 .skills-c{
@@ -628,36 +631,88 @@ a {
   height: 10px;
   background-color: #cacaca;
   border-radius: 15px;
+  display: block;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .skill-per{
   height: 10px;
   background-color: #0091c6;
   border-radius: 15px;
-  width: 0;
+  width: 60%;
   transition: 1s linear;
   position: relative;
+}
+#skill-html{
+  width: 30%;
+}
+#skill-css{
+  width: 30%;
+}
+#skill-js{
+  width: 50%;
+}
+
+#skill-react{
+  width: 30%;
+}
+#skill-boot{
+  width: 30%;
+}
+#skill-figma{
+  width: 50%;
+}
+
+#skill-canva{
+  width: 30%;
+}
+#skill-ui{
+  width: 30%;
+}
+#skill-java{
+  width: 50%;
+}
+
+#skill-python{
+  width: 30%;
+}
+#skill-mysql{
+  width: 30%;
+}
+#skill-sboot{
+  width: 50%;
+}
+
+#skill-mso{
+  width: 30%;
+}
+#skill-git{
+  width: 30%;
+}
+#skill-wf{
+  width: 50%;
 }
 .skill-per::before{
   content: attr(per);
   position: absolute;
   padding: 4px 6px;
-  background-color: #000;
+  background-color: #000000;
   color:white;
   font-size: 12px;
   border-radius: 4px;
   top: -35px;
-  right: 0;
+  right:0;
   transform: translateX(50%);
 }
 .skill-per::after{
-  content: '';
+  content: '' ;
   position: absolute;
   width: 10px;
   height: 10px;
   background-color: #000;
   top: -16px;
   right: 0;
-  transform: translateX(50%) rotate() ;
+  transform: translateX(50%) () ;
    border-radius: 2px;
 }
 @media (max-width: 920px) {
