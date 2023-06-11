@@ -558,14 +558,123 @@ a {
 .wrappe .button:nth-child(5) span {
   color: #ff0000;
 }
+/* Skills */
+:root {
+  --bg-color:  rgb(255, 252, 252);
+  --second-bg-color: #0000000a;
+  --text-color: #000000;
+  --main-color: rgb(0, 124, 185);
+  --big-font: 5rem;
+  --h2-font: 2rem;
+  --p-font: 1, 1rem;
+}
+a {
+  text-decoration: none;
+}
 
+.skil{
+  background-color: rgb(251, 251, 251) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skil h1{
+  font-size: 38px;
+  margin-top: 50px;
+}
+.skills-c h2{
+  margin: 50px 0;
+}
+
+.skills-c{
+  width: 100%;
+  padding: 34px 15%;
+  top: 0;
+  right: 0;
+  background: var(--second-bg-colo);
+ display: grid;
+ gap: 1rem;
+}
+.skills-c1{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  font-family: "Poppins", sans-serif;
+}
+.skills-c2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:10rem;
+  font-family: "Poppins", sans-serif;
+}
+.skills{
+  width: 18px;
+  max-width: 500px;
+  padding: 100px 20px;
+}
+.skill-name{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.skill-bar{
+  height: 10px;
+  background-color: #cacaca;
+  border-radius: 15px;
+}
+.skill-per{
+  height: 10px;
+  background-color: #0091c6;
+  border-radius: 15px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #000;
+  color:white;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+.skill-per::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate() ;
+   border-radius: 2px;
+}
+@media (max-width: 920px) {
+  .skills-c {
+    grid-template-columns: 1fr;
+  }
+  .skills-c1 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .skills-c2 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
 /*...... contect us section...........*/
 
 :root {
   --bg-color: #ffffff;
   --second-bg-color: #0000000a;
   --text-color: #000000;
-  --main-color: rgb(0, 124, 185);
+  --main-color: #0087b9;
   --big-font: 5rem;
   --h2-font: 2rem;
   --p-font: 1, 1rem;
@@ -787,7 +896,7 @@ footer {
   transition: color 0.4s ease;
 }
 .footer_content a:hover i {
-  color: rgb(0, 109, 121);
+  color: rgb(0, 133, 148);
 }
 .footer-button {
   background: black;
@@ -804,5 +913,5 @@ footer {
   text-transform: uppercase;
   
   font-weight: 200;
-  color:skyblue;
+  color:#00bbff;
 }
