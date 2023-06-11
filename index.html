@@ -27,6 +27,13 @@
 
     <link rel="stylesheet" href="index.css">
 
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link for Icons -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> -->
+
+
     <title>Ansh</title>
 
 
@@ -42,7 +49,7 @@
                 <div class="container">
 
                     <div class="logo">
-                        <img src="ansh.jpg" alt="Logo">
+                        <img src="image/ansh.jpg" alt="Logo">
                         <h3>Ansh Rajput</h3>
                     </div>
 
@@ -50,11 +57,11 @@
                     <div class="links active">
                         <ul>
                             <li><a href="#home"><i class=""></i><b> Home </b></a></li>
-                            <li><a href="#about"><i class=""></i>About</a></li>
-                            <li><a href="#skills"><i class=""></i>Skills</a></li>
+                            <li><a href="#about"><i class=""></i>Aboutme</a></li>
+                            <li><a href="#skills"><i class=""></i>My Skills</a></li>
                             <li><a href="#education"><i class=""></i>Education</a></li>
 
-                            <li><a href="#contect"><i class=""></i> Contact</a></li>
+                            <li><a href="#contect"><i class=""></i> Contact me</a></li>
                             <li><a href="#"></i> <i></i></a> </i></li>
 
                         </ul>
@@ -103,14 +110,14 @@
                             </div>
 
                             <div class="cta-btn">
-                                <a href="resume.png" class="btne" id="btn-e">Resume</a>
+                                <a href="/image/resume.png" class="btne" id="btn-e">Resume</a>
                             </div>
 
                         </div>
 
                     </div>
                     <div class="right ">
-                        <img src="ansh.jpg" alt="" class="person">
+                        <img src="/image/ansh.jpg" alt="" class="person">
                     </div>
                 </div>
             </div>
@@ -379,7 +386,7 @@
             const skillsContent = document.getElementsByClassName('skills_content'),
                 skillsHeader = document.querySelectorAll('.skills_header')
 
-            function toggleSkills(){
+            function toggleSkills() {
                 let itemClass = this.parentNode.className
 
                 for (i = 0; i < skillsContent.length; i++) {
@@ -398,124 +405,169 @@
         </script>
         <!-- Education -->
         <section id="education">
-             
+
         </section>
-        <!-------contect us------------->
         <hr>
-        <section class="contect_all" id="contect">
+        <!-- certificets -->
+        <section class="bod" id="certificets">
 
-            <div class="contect_head">
-                <h2>Contect <span>Me!</span></h2>
-            </div>
-            <div class="contect">
-            <div class="contect-text">
-               
-                <!-- <h4>For Customer Support and Query, Get in touch with us: Help</h4> -->
-
-                <div class="list">
-                    <div class="li">
-
-                        <div class="icn"><a href="https://maps.app.goo.gl/K1fckczgQ5pSDLNH9"> <i
-                                    class="fa fa-map-marker" aria-hidden="true"></i></div>
-                        <div class="text">
-                            <h3>Address</h3>
-                            <p>Collage Of Engineering Roorkee, Utrakhand 247667</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="li">
-                        <div class="icn"><a href="tel:+91 9693296612"><i class="fa fa-phone" aria-hidden="true"></i>
-                        </div>
-                        <div class="text">
-
-                            <h3>Phone</h3>
-                            <p>+91 96932 96612</p>
-                        </div>
-                        </a>
-                    </div>
-                    <div class="li">
-                        <div class="icn"><a href="mailto:anshrajsingh580@gmail.com"><i class="bx bx-message-detail"
-                                    aria-hidden="true"></i></i></div>
-                        <div class="text">
-                            <h3>Email</h3>
-                            <p>anshrajsingh580@gmail.com</p>
-                        </div>
-                        </a>
-                    </div>
-                </div>
-
-
-
+            <div class="wrapper2">
+                <i id="left" class="fa fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img"><img src="images/" alt="img" draggable="false"></div>
+                        <h2></h2>
+                        <span></span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="images/" alt="img" draggable="false"></div>
+                        <h2></h2>
+                        <span></span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="images/img-3.jpg" alt="img" draggable="false"></div>
+                        <h2></h2>
+                        <span></span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="images/img-4.jpg" alt="img" draggable="false"></div>
+                        <h2></h2>
+                        <span></span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="images/img-5.jpg" alt="img" draggable="false"></div>
+                        <h2></h2>
+                        <span></span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+                        <h2></h2>
+                        <span></span>
+                    </li>
+                </ul>
+                <i id="right" class="fa fa-angle-right"></i>
             </div>
 
-            <div class="contect-form">
-                <!-- <h3> Send <span>.Massage!</span></h3> -->
-                <form action="" name="contectform" method="post">
-                    <input type="name" placeholder="Your Name" name="Name" required>
-                    <input type="email" placeholder="Your Email Address" name="Email" required>
-                    <input type="tel" placeholder="Your Mobile Number" name="Number" required>
-                    <textarea name="Massage" id="" cols="30" rows="10" placeholder="How Can I Help You"required></textarea>
-                    <input type="submit" value="Send Massage" class="submit" required>
-                </form>
-            </div>
-        </div>
-        </section>
+</body>
 
+</html>
+</section>
+<!-------contect us------------->
+<hr>
+<section class="contect_all" id="contect">
 
-
-
-
-        <hr>
-
-        <!--  ..... footer ......   -->
-
-        <footer>
-            <pre>    </pre>
-            <div class="footer_content">
-
-                <a href="https://copyright.gov.in/">
-                    <h3> Copyright</h3>
-                </a>
-
-                <p>All content on this website, including text, images, videos, and audio, is protected by copyright
-                    law.
-                    The content is the property of<b> Ansh Rajput </b> its content providers and is protected by
-                    Indian copyright &copy; laws.</p>
-
-                <div class="social-media">
-
-                    <a href="#" class="social-icon">
-                        <i class='bx bxl-facebook'></i></a>
-
-                    <a href="#" class="social-icon">
-                        <pre>  <i class='bx bxl-twitter'></i></pre>
-                    </a>
-
-                    <a href="#" class="social-icon">
-                        <pre>  <i class='bx bxl-google'></i></pre>
-                    </a>
-
-                    <a href="#" class="social-icon">
-                        <pre>  <i class='bx bxl-linkedin'></i></pre>
-                    </a>
-
-                    <a href="#" class="social-icon">
-                        <pre>  <i class='bx bxl-instagram'></i></pre>
-                    </a>
-
-                </div>
-
-            </div>
-
-            <hr>
-            <!--   copyright    -->
-            <div class="footer-button">
-                <p>copyright &copy;2023 . designed by <span>Ansh Rajput</span></p>
-            </div>
-
-        </footer>
+    <div class="contect_head">
+        <h2>Contect <span>Me!</span></h2>
     </div>
-    <script src="index.js"></script>
+    <div class="contect">
+        <div class="contect-text">
+
+            <!-- <h4>For Customer Support and Query, Get in touch with us: Help</h4> -->
+
+            <div class="list">
+                <div class="li">
+
+                    <div class="icn"><a href="https://maps.app.goo.gl/K1fckczgQ5pSDLNH9"> <i class="fa fa-map-marker"
+                                aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Collage Of Engineering Roorkee, Utrakhand 247667</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="li">
+                    <div class="icn"><a href="tel:+91 9693296612"><i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+
+                        <h3>Phone</h3>
+                        <p>+91 96932 96612</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="li">
+                    <div class="icn"><a href="mailto:anshrajsingh580@gmail.com"><i class="bx bx-message-detail"
+                                aria-hidden="true"></i></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>anshrajsingh580@gmail.com</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="contect-form">
+            <!-- <h3> Send <span>.Massage!</span></h3> -->
+            <form action="" name="contectform" method="post">
+                <input type="name" placeholder="Your Name" name="Name" required>
+                <input type="email" placeholder="Your Email Address" name="Email" required>
+                <input type="tel" placeholder="Your Mobile Number" name="Number" required>
+                <textarea name="Massage" id="" cols="30" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Send Massage" class="submit" required>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<hr>
+
+<!--  ..... footer ......   -->
+
+<footer>
+    <pre>    </pre>
+    <div class="footer_content">
+
+        <a href="https://copyright.gov.in/">
+            <h3> Copyright</h3>
+        </a>
+
+        <p>All content on this website, including text, images, videos, and audio, is protected by copyright
+            law.
+            The content is the property of<b> Ansh Rajput </b> its content providers and is protected by
+            Indian copyright &copy; laws.</p>
+
+        <div class="social-media">
+
+            <a href="#" class="social-icon">
+                <i class='bx bxl-facebook'></i></a>
+
+            <a href="#" class="social-icon">
+                <pre>  <i class='bx bxl-twitter'></i></pre>
+            </a>
+
+            <a href="#" class="social-icon">
+                <pre>  <i class='bx bxl-google'></i></pre>
+            </a>
+
+            <a href="#" class="social-icon">
+                <pre>  <i class='bx bxl-linkedin'></i></pre>
+            </a>
+
+            <a href="#" class="social-icon">
+                <pre>  <i class='bx bxl-instagram'></i></pre>
+            </a>
+
+        </div>
+
+    </div>
+
+    <hr>
+    <!--   copyright    -->
+    <div class="footer-button">
+        <p>copyright &copy;2023 . designed by <span>Ansh Rajput</span></p>
+    </div>
+
+</footer>
+</div>
+<script src="index.js"></script>
 </body>
 
 </html>
