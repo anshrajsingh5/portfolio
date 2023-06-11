@@ -590,7 +590,7 @@ a {
   justify-content: space-between;
 
 }
-.skills-c h2 .skill-arrow{
+.skills-c h2 .skills_arrow{
   color: #00a9e7;
   transition: .4s;
 
@@ -604,7 +604,7 @@ a {
   right: 0;
   background: var(--second-bg-colo);
  display: grid;
- gap: 1rem;
+ gap: 0.5rem;
 }
 .skills-c1{
   
@@ -619,17 +619,18 @@ a {
   gap:10rem;
   font-family: "Poppins", sans-serif;
 }
-.skills-close .skills{
+.skill_close .skills_list{
    height: 0;
    overflow: hidden;
+   
 }
-.skills-open .skills{
+.skill_open .skills_list{
   height: max-content;
-  margin-bottom: ;
+  margin-bottom:2.5rem ;
 
 
 }
-.skills-open .skill-arrow{
+.skill_open .skills_arrow{
   transform: rotate(-180deg);
 }
 .skills{
@@ -736,11 +737,11 @@ a {
   }
   .skills-c1 {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 0.1rem;
   }
   .skills-c2 {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 0.1rem;
   }
 }
 /*...... contect us section...........*/
