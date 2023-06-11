@@ -74,7 +74,7 @@
                     </div>
                     <div class="hamburger-menu">
                         <i class='bx bx-menu'></i>
-                        
+
 
                     </div>
                     <!-- <div class="hamburger-menu" type="button">
@@ -177,10 +177,13 @@
             <p>My tecnical level</p>
             <div class="skills-c">
                 <div class="skills-c1">
-                    <div class="frontend">
-                        <div class="h2"></div>
-                        <h2>Frontend Devloper <i class="fa fa-angle-down"></i> </h2>
-                           <!-- <span>My Frontend Devlopment Skills level</span> -->
+                    <!-- ............... skills 1........... -->
+                    <div class="skills_content skill-open">
+
+                        <div class="h2">
+                            <h2>Frontend Devloper <i class="fa fa-angle-down skill-arrow"></i> </h2>
+                            <!-- <span>My Frontend Devlopment Skills level</span> -->
+                        </div>
                         <div class="skiils">
                             <div class="skill">
                                 <div class="skill-name">HTML </div>
@@ -228,9 +231,11 @@
                         </div>
                     </div>
 
-                    <div class="designer">
-                        <h2>Designer <i class="fa fa-angle-down"></i></h2>
-
+                    <!-- ............... skills 2........... -->
+                    <div class="skills_content skill-open">
+                        <div class="h2">
+                            <h2>Designer <i class="fa fa-angle-down skill-arrow"></i></h2>
+                        </div>
                         <div class="skiils">
                             <div class="skill">
                                 <div class="skill-name">Figma</div>
@@ -260,9 +265,13 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="skills-c2">
-                    <div class="backend">
-                        <h2>Backend Devloper <i class="fa fa-angle-down"></i></h2>
+                    <!-- ............... skills 3........... -->
+                    <div class="skills_content skill-close">
+                        <div class="h2">
+                            <h2>Backend Devloper <i class="fa fa-angle-down skill-arrow"></i></h2>
+                        </div>
                         <div class="skiils">
                             <div class="skill">
                                 <div class="skill-name">Java</div>
@@ -300,9 +309,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="other">
-                        <h2>Other <i class="fa fa-angle-down"></i></h2>
-
+                    <!-- ............... skills 4........... -->
+                    <div class="skills_content skill-close">
+                        <div class="h2">
+                            <h2>Other <i class="fa fa-angle-down skill-arrow"></i></h2>
+                        </div>
                         <div class="skiils">
                             <div class="skill">
                                 <div class="skill-name">Ms Office</div>
@@ -341,7 +352,7 @@
                 $this.css("width", per + '%');
                 $({ animatedValue: 0 }).animate({ animatedValue: per }, {
                     duration: 1000,
-                    step: function (){
+                    step: function () {
                         $this.attr('per', math.floor(this.animatedValue) + '%');
                     },
                     complete: function () {
@@ -350,6 +361,27 @@
                 });
 
             });
+            // ..............................
+
+            const skillsContent = document.getElementsByClassName('skills_content'),
+                skillsHeader = document.querySelectorAll('.h2')
+
+            function toggleSkills() {
+                let itemClass = this.parentNode.ClassName
+
+                for (i = 0; i < skillsContent.length; i++) {
+                    skillsContent[i].className = 'skills_content skill-close'
+                }
+                if (itemClass === 'skills_content skill-close') {
+                    this.parentNode.className = 'skills_content skill-open'
+                }
+
+            }
+            skillsHeader.forEach((el) => {
+                el.addEventListener('click', toggleSkills)
+            })
+
+
         </script>
         <!--  -->
         <section>
