@@ -58,9 +58,7 @@ a {
   z-index: 10;
 }
 
-header {
-  
-}
+
 
 header .container {
   display: flex;
@@ -72,6 +70,7 @@ header .container {
   display: flex;
   align-items: center;
   cursor: pointer;
+  z-index: 999;
 }
 
 .logo img {
@@ -123,6 +122,7 @@ header .container {
   border: 2px solid var(--darkOne);
   cursor: pointer;
   overflow: hidden;
+  
 }
 .profile img {
   width: 100%;
@@ -330,6 +330,7 @@ header .container {
 
   .logo {
     margin-left: -15px;
+    
   }
   .showcase-area .container {
     grid-template-columns: 1fr;
@@ -393,13 +394,13 @@ display: block;
   }
   .links {
     position:absolute;
-    height: 45vh;
-    width: 220px;
+    height: 450px;
+    width: 28%;
     right: 0;
     top: 0;
     background: var(--backgroundColor);
     color: var(--lightTwo);
-    padding-top: 50px;
+    padding-top: 90px;
     align-items: center;
     justify-content: center;
     transform: translatex(100%);
@@ -644,10 +645,10 @@ a {
   position: relative;
 }
 #skill-html{
-  width: 30%;
+  width: 95%;
 }
 #skill-css{
-  width: 30%;
+  width: 80%;
 }
 #skill-js{
   width: 50%;
@@ -657,40 +658,40 @@ a {
   width: 30%;
 }
 #skill-boot{
-  width: 30%;
+  width: 50%;
 }
 #skill-figma{
-  width: 50%;
+  width: 70%;
 }
 
 #skill-canva{
-  width: 30%;
+  width: 80%;
 }
 #skill-ui{
-  width: 30%;
+  width: 60%;
 }
 #skill-java{
-  width: 50%;
+  width: 80%;
 }
 
 #skill-python{
-  width: 30%;
+  width: 40%;
 }
 #skill-mysql{
-  width: 30%;
+  width: 70%;
 }
 #skill-sboot{
-  width: 50%;
+  width: 20%;
 }
 
 #skill-mso{
-  width: 30%;
+  width: 75%;
 }
 #skill-git{
-  width: 30%;
+  width: 40%;
 }
 #skill-wf{
-  width: 50%;
+  width: 60%;
 }
 .skill-per::before{
   content: attr(per);
