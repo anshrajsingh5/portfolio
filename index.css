@@ -590,7 +590,7 @@ a {
   font-size: 25px;
 }
 .skills-c h2{
-  margin: 50px 0;
+  margin: 30px 0;
   display: flex;
   justify-content: space-between;
   font-family:sans-serif;
@@ -605,7 +605,7 @@ a {
 
 .skills-c{
   width: 100%;
-  padding: 34px 15%;
+  padding: 20px 20%;
   top: 0;
   right: 0;
   background: var(--second-bg-colo);
@@ -616,13 +616,13 @@ a {
   
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
+  gap: 5rem;
   font-family: "Poppins", sans-serif;
 }
 .skills-c2{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap:10rem;
+  gap:5rem;
   font-family: "Poppins", sans-serif;
 }
 .skills_close .skills_list{
@@ -632,7 +632,7 @@ a {
 }
 .skills_open .skills_list{
   height: max-content;
-  margin-bottom:2.5rem ;
+  margin-bottom:.5rem ;
 
 
 }
