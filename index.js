@@ -86,7 +86,7 @@ form.addEventListener('submit', e => {
 
 // .......................................................................
 
-const wrapper = document.querySelector(".wrapper2");
+const wrapper2 = document.querySelector(".wrapper2");
 const carousel = document.querySelector(".carousel");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
 const arrowBtns = document.querySelectorAll(".wrapper2 i");
@@ -154,7 +154,7 @@ const infiniteScroll = () => {
 
     // Clear existing timeout & start autoplay if mouse is not hovering over carousel
     clearTimeout(timeoutId);
-    if(!wrapper.matches(":hover")) autoPlay();
+    if(!wrapper2.matches(":hover")) autoPlay();
 }
 
 const autoPlay = () => {
@@ -168,5 +168,5 @@ carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
-wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+wrapper2.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 // wrapper.addEventListener("mouseleave", autoPlay);
