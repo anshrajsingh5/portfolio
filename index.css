@@ -605,7 +605,7 @@ a {
 
 .skills-c{
   width: 100%;
-  padding: 20px 20%;
+  padding: 30px 20%;
   top: 0;
   right: 0;
   background: var(--second-bg-colo);
@@ -641,7 +641,7 @@ a {
 }
 .skills{
   width: 18px;
-  max-width: 500px;
+  max-width: 400px;
   padding: 100px 20px;
 }
 .skills_name{
