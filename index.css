@@ -1311,7 +1311,7 @@ body {
 }
 
 .timeline-items {
-  max-width: 1000px;
+  max-width: 610px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -1339,7 +1339,7 @@ body {
 
 .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
-  text-align: right;
+  text-align: left;
 }
 
 .timeline-item:nth-child(even) {
@@ -1357,6 +1357,9 @@ body {
   top: 0px;
 }
 
+/* .timeline-date:nth-child(odd){
+  text-align: right;
+} */
 .timeline-date {
   font-size: 17px;
   font-weight: bold;
