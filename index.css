@@ -213,7 +213,6 @@ header .container {
 
 .person {
   width: 70%;
-
   transform: translate(0%, 10px);
   transition: all 0.45s ease;
   color: var(--backgroundColo);
