@@ -39,7 +39,7 @@ a {
 
 .wrapper {
   position: relative;
-  padding: 27px 0 32px;
+  /* padding: 27px 0 32px; */
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
